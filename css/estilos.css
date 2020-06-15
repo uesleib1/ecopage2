@@ -1,0 +1,74 @@
+
+*{
+  font-family: 'Neucha', cursive;
+}
+
+body {
+    background-image:url(../img/ecologia1.jpg);
+    width:1200px ;
+    height:1500px ;
+}
+
+/* se a tela tiver pelo menos 400px vai carregar estes estilos */
+@media (min-width: 400px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* breakpoint */
+@media (min-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* breakpoint */
+@media (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+
+h1{
+    color:#2e8a17;
+    font-family: 'Neucha', cursive;
+}
+
+h3 {
+  color:#2e8a17;
+}
+
+.menu {
+    background-color:#81cc6e;
+    width: 100vw;
+    margin-top: 0px;
+    padding-top: 6px;
+    
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+   list-style: none; 
+   padding-right: 80px;
+  }
+
+  .menu a {
+    display: block;
+    padding: 10px 20px;
+  }
+
+  a {
+    color: teal;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    font-family: 'Neucha', cursive;
+  }
